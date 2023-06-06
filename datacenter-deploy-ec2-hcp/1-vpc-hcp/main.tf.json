@@ -1,13 +1,5 @@
 [
 {
- "cloud": {
-    "organization" : "Tines",
-    "workspaces" : {
-        "name" : "TinesTest"
-    }
- }
-},
-{
   "resource": {
     "random_string": {
       "tutorial": {
