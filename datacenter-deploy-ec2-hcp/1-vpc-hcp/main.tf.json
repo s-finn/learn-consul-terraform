@@ -1,5 +1,13 @@
 [
 {
+ "cloud": {
+    "organization" : "organization-name-here",
+    "workspaces" : {
+        "name" : "workspace-name-here"
+    }
+ }
+},
+{
   "resource": {
     "random_string": {
       "tutorial": {
