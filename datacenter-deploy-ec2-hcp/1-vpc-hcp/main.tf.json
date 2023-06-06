@@ -1,9 +1,9 @@
 [
 {
  "cloud": {
-    "organization" : "organization-name-here",
+    "organization" : "Tines",
     "workspaces" : {
-        "name" : "workspace-name-here"
+        "name" : "Tines-Test"
     }
  }
 },
