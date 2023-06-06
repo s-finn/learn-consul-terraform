@@ -9,8 +9,7 @@
       }
     }
   }
-}
-
+},
 {
     "locals": {
         "aws_region": "us-west-2",
@@ -18,16 +17,14 @@
         "cluster_id" : "learn-hcp-consul-ec2-client-${random_string.tutorial.id}", 
         "hvn_id" : "learn-hcp-consul-ec2-client-${random_string.tutorial.id}-hvn"
     }
-}
-
+},
 {
   "provider": {
     "aws": 
       {
         "region": "local.aws_region"
       }
-}
-
+  },
 {
   "data": {
     "aws_availability_zones": {
@@ -37,8 +34,7 @@
       }]
     }
   }
-}
-
+},
 {
   "module": {
     "vpc": [{
@@ -54,8 +50,7 @@
         ]
     }]
   }
-}
-
+},
 {
   "resource": {
     "hcp_hvn": {
@@ -67,8 +62,7 @@
       }
     }
   }
-}
-
+},
 {
   "module": {
     "aws_hcp_consul": {
@@ -80,8 +74,7 @@
       "route_tables_ids": "${module.vpc.public_route_table_ids}"
     }
   }
-}
-
+},
 {
   "resource": {
     "hcp_consul_cluster": {
