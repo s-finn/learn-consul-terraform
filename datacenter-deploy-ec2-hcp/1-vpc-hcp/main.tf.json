@@ -3,7 +3,7 @@
  "cloud": {
     "organization" : "Tines",
     "workspaces" : {
-        "name" : "Tines-Test"
+        "name" : "TinesTest"
     }
  }
 },
